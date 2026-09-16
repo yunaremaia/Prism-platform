@@ -53,7 +53,7 @@ class OSINTToolkit:
 
     def display_menu(self):
         print(f"\n{Colors.CYAN}{'='*60}{Colors.RESET}")
-        print(f"{Colors.BOLD}OSINT Toolkit v2.0 - Main Menu{Colors.RESET}")
+        print(f"{Colors.BOLD}PRISM v2.0 - Main Menu{Colors.RESET}")
         print(f"{Colors.CYAN}{'='*60}{Colors.RESET}")
 
         print(f"\n{Colors.YELLOW}Phone & Email:{Colors.RESET}")
@@ -308,7 +308,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="OSINT Toolkit - Open Source Intelligence Tool",
+        description="PRISM - Open Source Intelligence Platform",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
